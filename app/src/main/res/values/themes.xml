@@ -2,7 +2,12 @@
     <!-- Base application theme. -->
     <style name="Base.Theme.ShopEase" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryDark</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Customize your font here -->
+        <item name="android:fontFamily">@font/font_poppins</item>
     </style>
 
     <style name="Theme.ShopEase" parent="Base.Theme.ShopEase" />
